@@ -1,0 +1,35 @@
+body {
+    background-color: #e5e3d3;
+}
+
+table {
+    gap: 2px;
+    /*margin-left: 30px;*/ 
+    width: 100%;
+}
+
+th, td {
+    vertical-align: middle;
+    padding: 4px 20px 1px;
+    border-bottom: 2px solid #ccc;
+    white-space: pre-line;
+}
+th {
+  /*  background-color: #f2f2f2;*/
+}
+.blue {
+    /*margin-left: 30px;*/ 
+    padding-left: 20px;
+    background-color:#2d3a80 ;
+    color:#ffffff;
+    border-radius: 10px;
+    width: 100% - 20px;
+    font-weight: bold;
+}
+
+.max-width-container {
+    max-width: 850px; /* ここに最大幅を指定 */
+    margin: 0 auto; /* 横方向に中央揃えするためのマージン */
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
