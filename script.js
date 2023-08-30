@@ -36,12 +36,14 @@ document.addEventListener("DOMContentLoaded", function () {
         const castCell = document.createElement("td");
         castCell.style.fontSize = "12px";
         castCell.style.minWidth = "55px";
+        castCell.style.textAlign = "center";
         castCell.textContent = "Instant";
 
         const recastCell = document.createElement("td");
         recastCell.style.width = "20px";
         recastCell.style.fontSize = "12px";
         recastCell.style.minWidth = "70px";
+        recastCell.style.textAlign = "center";
         recastCell.textContent = "2.50s";
 
         const actionProperty = document.createElement("td");
